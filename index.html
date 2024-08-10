@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cantinho do Sabor</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+
+  <!-- Bootstrap ícones --><link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-- Fontes Google -->
+  <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  
+  <!-- Navegação -->
+  <header>
+    <nav class="navbar navbar-expand-lg fixed-top bg-white py-2 shadow-sm">
+      <div class="container">
+        <!-- Logo -->
+        <span class="titulo">CANTINHO DO SABOR</span>
+        <!-- Burguer -->
+        <button class="navbar-toggler shadow-none border-0" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <!-- Navegação -->
+        <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link px-3 py-2" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-2" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-2" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link px-3 py-2" href="#">Disabled</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+
+  <!-- Contéudo -->
+  <main>
+      <section class="container-img-top">
+        <div class="container d-flex flex-column justify-content-center align-items-center vh-100">
+          <h1 class="mb-3 titulo">CANTINHO DO SABOR</h1>
+          <p class="mb-5 text-center">Bem-vindo ao Cantinho do Sabor, um lugar onde a paixão pela comida e o carinho pelo atendimento se encontram para criar uma experiência gastronômica única. Em nosso restaurante, cada prato é uma celebração dos sabores autênticos e da culinária de qualidade.</p>
+        </div>
+      </section>  
+
+      <!-- Seção Cards -->
+      <section>
+        <!-- Título Cards -->
+        <h2 class="text-center titulo my-5">CARDÁPIO</h2>
+        <div class="container d-flex flex-wrap justify-content-center gap-5 pb-5">
+
+          <div class="card bg-light border-0 shadow-sm" style="width: 18rem;">
+            <img src="img/prato.jpg" class="card-img-top" alt="Prato de Comida">
+            <div class="card-body border">
+              <h5 class="titulo">Prato Feito</h5>
+              <p class="card-text"> Delicie-se com nossa refeição completa, com arroz, feijão, carne suculenta e acompanhamentos frescos. Sabor e qualidade em cada porção!</p>
+            </div>
+          </div>
+
+          <div class="card bg-light border-0 shadow-sm" style="width: 18rem;">
+            <img src="img/salada.jpg" class="card-img-top" alt="Prato de Salada">
+            <div class="card-body border">
+              <h5 class="titulo">Saladas</h5>
+              <p class="card-text">Frescas e nutritivas, nossas saladas são preparadas com ingredientes selecionados e temperos especiais. Leves e saborosas!</p>
+            </div>
+          </div>
+
+          <div class="card bg-light border-0 shadow-sm" style="width: 18rem;">
+            <img src="img/sobremesa.jpg" class="card-img-top" alt="Sobremesas">
+            <div class="card-body border">
+              <h5 class="titulo">Sobremesas</h5>
+              <p class="card-text"> Finalize sua refeição com nossas sobremesas irresistíveis, feitas com ingredientes de qualidade e sabores doces e sofisticados.</p>
+            </div>
+          </div>
+
+          <div class="card bg-light border-0 shadow-sm" style="width: 18rem;">
+            <img src="img/bebida.jpg" class="card-img-top" alt="Taças de Vinho">
+            <div class="card-body border">
+              <h5 class="titulo">Bebidas</h5>
+              <p class="card-text">Refresque-se com nossa variedade de bebidas, desde sucos naturais até opções alcoólicas. O complemento perfeito para sua refeição!
+
+              </p>
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+      <!-- Galeria -->
+
+      <section class="container-galeria">
+        <div class="container galeria">
+          <img src="img/bebida-1.jpg" alt="">
+          <img src="img/prato-1.jpg" alt="">
+          <img src="img/salada-galeria.jpg" alt="">
+          <img src="img/sobremesa-1.jpg" alt="">
+          <img src="img/sobremesa-2.jpg" alt="">
+          <img src="img/prato-2.jpg" alt="">
+          <img src="img/bebida-2.jpg" alt="">
+          <img src="img/bebida-3.jpg" alt="">
+        </div>
+    </section>
+
+    <!-- Carrosel -->
+    <section class="py-5">
+      <div id="carouselExampleIndicators" class="carousel slide w-75 p-5 mx-auto bg-light shadow rounded-4">
+        <div class="carousel-indicators">
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active bg-secondary" aria-current="true" aria-label="Slide 1"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" class="bg-secondary" aria-label="Slide 2"></button>
+          <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" class="bg-secondary" aria-label="Slide 3"></button>
+        </div>
+
+        <!-- Itens -->
+        <div class="carousel-inner">
+          <div class="carousel-item active text-center">
+            <img src="img/rafael.jpg" alt="" class="rounded-circle mb-4 border img-testemunhas">
+            <p class="nome-testemunhas">Rafael Monteiro</p>
+            <p>Adorei o Cantinho do Sabor! O atendimento foi rápido e atencioso, e os pratos são incríveis. Recomendo a todos que experimentem!</p>
+          </div>
+          <div class="carousel-item text-center">
+            <img src="img/isabela.jpg" alt="" class="rounded-circle mb-4 border img-testemunhas">
+            <p class="nome-testemunhas">Maria Fiorentini</p>
+            <p>Tive uma excelente experiência no Cantinho do Sabor! O ambiente é acolhedor e a comida, deliciosa. Com certeza voltarei mais vezes</p>
+          </div>
+          <div class="carousel-item text-center">
+            <img src="img/leandro.jpg" alt="" class="rounded-circle mb-4 border img-testemunhas">
+            <p class="nome-testemunhas">Leandro Villani</p>
+            <p>Um lugar encantador com uma comida que é um verdadeiro prazer para o paladar. O Cantinho do Sabor é, sem dúvida, meu novo restaurante favorito</p>
+          </div>
+        </div>
+
+        <!-- Botões -->
+        <button class="carousel-control-prev text-secondary" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+          <i class="bi bi-caret-left-fill" aria-hidden="true"></i>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next text-secondary" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+          <i class="bi bi-caret-right-fill" aria-hidden="true"></i>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </section>
+      
+  </main>
+
+  <footer class="text-white text-center py-3 rodape">
+    <div class="container">
+      <p class="mb-0">&copy; 2024 Cantinho do Sabor. Todos os direitos reservados.</p>
+      <p class="mb-0">Rua 229, 123 - Bairro - Cidade - Estado</p>
+      <p class="mb-0">Telefone: (11) 1234-5678 | Email: contato@cantinhodosabor.com</p>
+    </div>
+  </footer>
+
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  
+</body>
+</html>
+
