@@ -1,2 +1,2 @@
 # restaurante
- Site de fictício de um restaurante usando a biblioteca BootStrap
+ Projeto de um site de restaurante usando a biblioteca Bootstrap
